@@ -12,7 +12,7 @@
     --bg-main-secondary:rgba(100, 112, 116, 0.623);
     --succes:#4BC800;
     --footer-right: #F40018;
-    --bf-footer:#222222;
+    --bg-footer:#222222;
     --white: #fff
 }
 
@@ -48,7 +48,8 @@ body{
 /* main */
 
 .wrapper{
-    margin: 10px 60px;
+    margin: 10px 70px;
+    height: 70vh
 }
 
 .wrapper::after{
@@ -77,7 +78,10 @@ body{
 
 /* footer */
 
-
+.container{
+    background-color: var(--bg-footer);
+  
+}
 
 
 
